@@ -88,6 +88,11 @@
     "mobile-phone-api",
     "android-phone-api"
   ],
+  "homepage": "https://github.com/00adhithya/expo-phone-number-hint-autofill#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/00adhithya/expo-phone-number-hint-autofill.git"
+  },
   "author": "",
   "license": "MIT",
   "expo": {
