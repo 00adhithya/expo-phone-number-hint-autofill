@@ -1,6 +1,6 @@
 {
   "name": "expo-phone-number-hint-autofill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Expo module for Google Play Services Phone Number Hint API",
   "main": "index.js",
   "types": "index.d.ts",
@@ -88,11 +88,6 @@
     "mobile-phone-api",
     "android-phone-api"
   ],
-  "homepage": "https://github.com/00adhithya/expo-phone-number-hint-autofill#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/00adhithya/expo-phone-number-hint-autofill.git"
-  },
   "author": "",
   "license": "MIT",
   "expo": {
