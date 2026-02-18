@@ -1,0 +1,7 @@
+{
+  "name": "expo-phone-number-hint-autofill",
+  "platforms": ["android"],
+  "android": {
+    "modules": ["expo.modules.phonenumberhint.ExpoPhoneNumberHintModule"]
+  }
+}

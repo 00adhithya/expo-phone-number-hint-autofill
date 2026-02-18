@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+  namespace "expo.modules.phonenumberhint"
+  compileSdkVersion project.findProperty("compileSdkVersion") ?: 35
+  defaultConfig {
+    minSdkVersion project.findProperty("minSdkVersion") ?: 26
+    targetSdkVersion project.findProperty("targetSdkVersion") ?: 35
+  }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
+
+  kotlinOptions {
+    jvmTarget = '17'
+  }
+
+  sourceSets {
+    main {
+      java {
+        srcDirs 'src/main/java'
+      }
+      manifest.srcFile 'src/main/AndroidManifest.xml'
+    }
+  }
+}
+
+dependencies {
+  implementation project(":expo-modules-core")
+  implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0"
+  implementation "com.google.android.gms:play-services-auth:21.0.0"
+  implementation "com.google.android.gms:play-services-auth-api-phone:18.1.0"
+}

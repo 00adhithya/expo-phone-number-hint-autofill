@@ -1,0 +1,121 @@
+{
+  "name": "expo-phone-number-hint-autofill",
+  "version": "1.0.0",
+  "description": "Expo module for Google Play Services Phone Number Hint API",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "test": "expo-module test"
+  },
+  "keywords": [
+    "expo",
+    "expo-module",
+    "phone-number",
+    "hint",
+    "google-play-services",
+    "autofill",
+    "phone",
+    "mobile",
+    "android",
+    "react-native",
+    "authentication",
+    "user-input",
+    "form",
+    "phone-verification",
+    "sms",
+    "contact",
+    "phone-auth",
+    "expo-sdk",
+    "native-module",
+    "phone-hint",
+    "google-play",
+    "android-auth",
+    "mobile-auth",
+    "phone-input",
+    "form-autofill",
+    "user-experience",
+    "ux",
+    "sign-up",
+    "registration",
+    "login",
+    "phone-retrieval",
+    "contact-picker",
+    "android-services",
+    "play-services",
+    "expo-go",
+    "development-build",
+    "typescript",
+    "javascript",
+    "kotlin",
+    "java",
+    "native-android",
+    "expo-autolinking",
+    "react-native-module",
+    "mobile-development",
+    "app-development",
+    "phone-validation",
+    "user-onboarding",
+    "seamless-auth",
+    "zero-tap",
+    "one-tap",
+    "smart-lock",
+    "credentials-api",
+    "google-credentials",
+    "getphonenumberhintintentrequest",
+    "identity-signin-client",
+    "phone-number-hint-api",
+    "google-auth-api",
+    "play-services-auth",
+    "play-services-auth-api-phone",
+    "hint-request",
+    "phonenumberhint",
+    "signinclient",
+    "google-identity",
+    "auth-api",
+    "phone-hint-intent",
+    "google-play-auth",
+    "android-hint-api",
+    "expo-phone",
+    "expo-auth",
+    "expo-android",
+    "react-native-phone",
+    "react-native-auth",
+    "mobile-phone-api",
+    "android-phone-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "expo": {
+    "name": "expo-phone-number-hint-autofill",
+    "autolinking": {
+      "nativeModules": [
+        {
+          "name": "ExpoPhoneNumberHintModule",
+          "platforms": [
+            "android"
+          ],
+          "android": {
+            "package": "expo.modules.phonenumberhint",
+            "modules": [
+              "expo.modules.phonenumberhint.ExpoPhoneNumberHintModule"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "^8.0.0",
+    "eslint": "^8.57.1",
+    "eslint-config-universe": "^15.0.3",
+    "expo-module-scripts": "^3.0.0"
+  },
+  "peerDependencies": {
+    "expo": "*"
+  }
+}
